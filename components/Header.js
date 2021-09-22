@@ -5,12 +5,16 @@ function Header() {
   return (
     <header className="sticky top-0 z-50 py-5 px-5 bg-white shadow-md grid grid-cols-3 md:px-10">
       <div className=" relative flex items-center h-10 cursor-pointer my-auto">
-        <Image
+        <h1 className="font-serif text-black font-semibold text-4xl ">
+          a
+          <span className="text-red-700">B</span>
+        </h1>
+        {/* <Image
           src="https://links.papareact.com/qd3"
           layout="fill"
           objectFit="contain"
           objectPosition="left"
-        />
+        /> */}
       </div>
       <div className="flex items-center py-2  rounded-full md:border-2 md:shadow-sm">
           <input className=" text-sm text-gray-600 placeholder-gray-600 pl-5 bg-transparent outline-none flex-grow" type="text" placeholder="Search here ..." />
